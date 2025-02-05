@@ -1,9 +1,8 @@
 # include<stdio.h>
 
 int main() {
-    char A='b';
-    char z='z';
-    printf("%d",A);
-    printf("%d",z);
+    char ch;
+    scanf("%c",&ch);
+    printf(You entered:%c,ch);
     return 0;
 } 
