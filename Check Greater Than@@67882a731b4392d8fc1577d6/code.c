@@ -1,9 +1,9 @@
 # include<stdio.h>
 
 int main() {
-    int a=5;
-    if (a>3){
-        printf("true");
-    }
+    int n1, n2;
+    scanf("%d %d", &n1, &n2);
+        printf("%s", n1>n2 ? "true"  ; "false");
+    
     return 0;
 } 
