@@ -6,11 +6,6 @@ int main() {
     // Taking a single character input using scanf
     printf("Enter a character: ");
     scanf("%c", &ch);
-
-    // Consume the newline character left by scanf
-    getchar();
-
-    // Printing the character using printf
     printf("You entered: %c\n", ch);
 
     return 0;
